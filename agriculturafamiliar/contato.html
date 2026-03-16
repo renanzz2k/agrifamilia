@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agrofamilia - Plataforma de Agricultura Familiar</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-success">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Agrofamilia </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="produtores.html">Produtores</a></li>
+        <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<section class="hero-secondary vh-50 d-flex align-items-center justify-content-center text-center text-white" style="background: url('img/contato-hero.jpg') center/cover no-repeat;">
+  <div class="container">
+    <h1 class="display-5 fw-bold">Fale Conosco</h1>
+    <p class="lead">Estamos prontos para responder suas dúvidas e apoiar produtores</p>
+  </div>
+</section>
+
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Entre em contato</h2>
+    <form>
+      <div class="row g-3">
+        <div class="col-12 col-md-6">
+          <label for="nome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
+        </div>
+        <div class="col-12 col-md-6">
+          <label for="email" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="email" placeholder="Seu e-mail" required>
+        </div>
+        <div class="col-12">
+          <label for="assunto" class="form-label">Assunto</label>
+          <input type="text" class="form-control" id="assunto" placeholder="Motivo do contato" required>
+        </div>
+        <div class="col-12">
+          <label for="mensagem" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <button type="submit" class="btn btn-success btn-lg">Enviar Mensagem</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer class="bg-success text-white py-4 mt-5">
+  <div class="container text-center">
+    <p>© 2026 AgriFamilia
